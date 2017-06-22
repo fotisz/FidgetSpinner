@@ -17,7 +17,7 @@ function spin() {
             backgroundInit = !1
         },
         onRotate: function() {
-            updateBackground(this.speed)
+           // updateBackground(this.speed)
         }
     })
 }
