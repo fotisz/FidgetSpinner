@@ -5492,3 +5492,7 @@ function(t, e, n) {
         })
     }
 }(jQuery, window);
+$(document).ready(function() {
+    spin(),
+    $(window).on("resize", resizeMe)
+});
