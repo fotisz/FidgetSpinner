@@ -45,7 +45,3 @@ function updatePos(t, e) {
     })
 }
 var initialOffset = 0, backgroundInit = !1, backgroundAnimating = !1, spinner;
-$(document).ready(function() {
-    spin(),
-    $(window).on("resize", resizeMe)
-});
